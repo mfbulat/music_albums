@@ -1,0 +1,38 @@
+
+.itemsBlock {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    min-height: 80vh;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.itemBlock {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 220px;
+}
+
+.itemImage {
+    width: 150px;
+    height: 150px;
+
+}
+
+.description {
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.description span {
+    text-align: left;
+}
